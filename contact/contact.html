@@ -28,17 +28,36 @@
         </ul>
       </div>
     </nav>
-    <div class="hero">
-      <div class="hero-content">
-        <h1>Bethal Hospital</h1>
-        <p>
-          Nurturing wellness, one click at a time --- your health, our priority.
-        </p>
-        <button src="../contact/contact.html">Contact</button>
-      </div>
-      <div class="hero-bg">
-        <img src="../assets/hero_bg.png" alt="hero" />
-      </div>
+    <div class="container">
+      <h1>Contact US</h1>
+      <form action="action_page.php">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+
+        <label for="lname">Email</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your email.."
+        />
+
+        <label for="subject">Subject</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
+          style="height: 200px"
+          rows="4"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
     </div>
     <footer class="footer">
       <div class="footer-upper">
