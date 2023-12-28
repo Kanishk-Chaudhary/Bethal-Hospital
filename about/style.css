@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: inherit;
+  color: inherit;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.navbar {
+  background-color: #3f8cff;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  padding: 15px;
+}
+.my-button {
+  background-color: transparent;
+  border: 10px;
+  color: black;
+  cursor: pointer;
+  font-size: 30px;
+  margin-left: 32px;
+  float: left;
+  line-height: 70px;
+  display: none;
+}
+
+.my-button:focus {
+  outline: none;
+}
+.navbar-content ul {
+  padding: 15px;
+  margin-top: 15px;
+  margin-right: 15px;
+  display: flex;
+  gap: 120px;
+}
+.navbar-content li {
+  list-style: none;
+}
+.navbar-content a {
+  text-decoration: none;
+  font-size: large;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+.navbar-content a:hover {
+  color: antiquewhite;
+}
+.hero {
+  background-color: #f4f4f4;
+  width: 100%;
+  display: flex;
+  gap: 20rem;
+}
+.hero-content h1 {
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.hero-content p {
+  margin-top: 10px;
+  width: 50%;
+  margin-left: 24%;
+  margin-top: 20px;
+}
+.footer {
+  background-color: #3f8cff;
+}
+.footer-upper {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-content {
+  padding: 20px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.footer-content p {
+  margin-top: 20px;
+}
+.footer-contact {
+  padding: 20px;
+  margin-right: 80px;
+}
+.footer-contact ul {
+  margin-top: 20px;
+}
+.footer-contact a {
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+.footer-contact a:hover {
+  color: antiquewhite;
+}
+.copyright {
+  padding: 20px;
+  margin-left: 80px;
+}
+.copyright a {
+  color: black;
+
+  transition: all 0.3s ease-in-out;
+}
+.copyright a:hover {
+  color: antiquewhite;
+}
