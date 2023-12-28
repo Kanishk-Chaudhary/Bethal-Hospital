@@ -52,36 +52,93 @@ body {
 .navbar-content a:hover {
   color: antiquewhite;
 }
-.hero {
+.facility {
+  text-align: center;
   background-color: #f4f4f4;
-  width: 100%;
+  gap: 20em;
+  padding: 4rem 1rem;
+}
+.card {
+  margin-top: 40px;
   display: flex;
   justify-content: center;
-  gap: 20rem;
+  gap: 2rem;
 }
-.hero-content h1 {
-  margin-top: 180px;
-  text-transform: uppercase;
-}
-.hero-content p {
-  margin-top: 10px;
-}
-.hero-content button {
+.card button {
   margin-top: 20px;
   margin-bottom: 200px;
   width: 30%;
-  height: 8%;
   background-color: #55aa00;
   border: none;
   font-size: 15px;
   border-radius: 18px;
   transition: all 0.2s ease-in-out;
 }
-.hero-content button:hover {
+.card button:hover {
   color: antiquewhite;
 }
-.hero-content button:active {
+.card button:active {
   scale: 95%;
+}
+.cc {
+  width: 500px;
+  background-color: #bad6ff;
+  border: solid 1px;
+  border-radius: 10px;
+  height: 400px;
+  transition: all 0.2s ease-in-out;
+}
+.cc:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cc h3 {
+  font-size: 2rem;
+}
+.p1 {
+  width: 50%;
+  margin-left: 24%;
+  margin-top: 20px;
+}
+.hs {
+  width: 500px;
+  margin-top: 20px;
+  background-color: #bad6ff;
+  border: solid 1px;
+  border-radius: 10px;
+  height: 400px;
+  transition: all 0.2s ease-in-out;
+}
+.hs:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hs h3 {
+  font-size: 2rem;
+}
+.p2 {
+  width: 50%;
+
+  margin-left: 24%;
+  margin-top: 20px;
+}
+.r {
+  width: 500px;
+  margin-top: 20px;
+  background-color: #bad6ff;
+  border: solid 1px;
+  border-radius: 10px;
+  height: 400px;
+  transition: all 0.3s ease-in-out;
+}
+.r:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.r h3 {
+  font-size: 2rem;
+}
+.p3 {
+  width: 50%;
+  margin-left: 24%;
+  margin-top: 20px;
 }
 .footer {
   background-color: #3f8cff;

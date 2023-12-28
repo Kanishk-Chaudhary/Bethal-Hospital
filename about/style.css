@@ -63,11 +63,23 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+.hero-content .AP {
+  margin-top: 30px;
+  font-size: 1.1rem;
+  width: 100%;
+}
+.hero-content h2 {
+  color: #55aa00;
+  margin-top: 20px;
+  margin-left: 460px;
+}
 .hero-content p {
-  margin-top: 10px;
   width: 50%;
   margin-left: 24%;
-  margin-top: 20px;
+  font-size: 1.1rem;
+}
+.h2p {
+  margin-bottom: 60px;
 }
 .footer {
   background-color: #3f8cff;
