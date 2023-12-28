@@ -64,22 +64,6 @@ body {
   justify-content: center;
   gap: 2rem;
 }
-.card button {
-  margin-top: 20px;
-  margin-bottom: 200px;
-  width: 30%;
-  background-color: #55aa00;
-  border: none;
-  font-size: 15px;
-  border-radius: 18px;
-  transition: all 0.2s ease-in-out;
-}
-.card button:hover {
-  color: antiquewhite;
-}
-.card button:active {
-  scale: 95%;
-}
 .cc {
   width: 500px;
   background-color: #bad6ff;
